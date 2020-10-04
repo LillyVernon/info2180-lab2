@@ -1,0 +1,146 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    padding: 20px;
+}
+
+.Header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.Aside {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.Main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#mainheading {
+    font-size: 32px;
+    color: #48bb78;
+    text-align: left;
+    line-height: 0%;
+}
+
+#headerimage {
+    border-radius: 60%;
+    /*text-align: center;
+    margin: auto;
+    display: block;*/
+}
+
+#headerheading1 {
+    text-align: center;
+    padding: 0%;
+    line-height: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+#headerheading2 {
+    font-size: 20px;
+    padding: 0%;
+    line-height: 0%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0%;
+}
+
+a {
+    color: #4299e1;
+    text-decoration: none;
+}
+
+aside {
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 400px;
+}
+
+header {
+    background-color: #63B3ED;
+    color: #ffffff;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
+#DA {
+    color: #718096;
+    text-align: left;
+    line-height: 0%;
+}
+#social {
+    color: #48BB78;
+    text-align: left;
+}
+#about {
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+#pabout {
+    text-align: left;
+}
+#aboutdiv {
+    background-color: #E2E8F0;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+}
+#Archives {
+    text-align: left;
+    color: #48BB78;
+}
+footer {
+    background-color: #2C5282;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#particle1,
+#particle2 {
+    text-align: justify;
+    font-size: 15px;
+}
+#particle3,
+#particle4 {
+    text-align: justify;
+    font-size: 15px;
+}
+#a2image {
+    float: left;
+}
+#a1image {
+    float: right;
+}
+#article1 {
+    padding-bottom: 20px;
+}
+#article2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
